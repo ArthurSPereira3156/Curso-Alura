@@ -5,24 +5,24 @@
 
 //posições:
 //               0    1  2   3
-const notas =  [10, 6.5, 8, 7.5];
+//const notas =  [10, 6.5, 8, 7.5];
 
-const media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
+//const media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
 
-console.log(media);
+//console.log(media);
 
-const numero1 = 50;
+/*const numero1 = 50;
 const numero2 = 43;
-const numero3 = 12;
+const numero3 = 12;*/
 
 // utilizando array
 //const numeros = [50, 43, 12];
 
-const arrayDeNumeros = [50, 43, 12];
-const arrayDeStrings = ["banana", "alura", "Juliana"];
+/*const arrayDeNumeros = [50, 43, 12];
+const arrayDeStrings = ["banana", "alura", "Juliana"];*/
 
 // array com 1 elemento
-const numero = [5];
+//const numero = [5];
 
 // array com 3 elementos
 //const numeros = [50, 43, 12];
@@ -32,5 +32,15 @@ const numero = [5];
 // índice     0   1   2   3
 //const numeros = [50, 43, 12, 98];
 // índice     0   1   2   3
-const nums = [50, 43, 12, 98];
-console.log(nums.length) //4
+//const nums = [50, 43, 12, 98];
+//console.log(nums.length) //4
+
+const notas = [10, 6, 8];
+
+notas.push(7);
+
+console.log(notas);
+
+const media = (notas[0] + notas[1] + notas[2]) / notas.length;
+
+console.log(media);
