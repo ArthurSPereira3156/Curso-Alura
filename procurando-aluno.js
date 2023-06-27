@@ -7,9 +7,11 @@ function exibeNomeENota(aluno)
 {
  if(listaDeAlunosEMedias[0].includes(aluno))
  {
+ const alunos = listaDeAlunosEMedias[0]
+ const medias = listaDeAlunosEMedias[1]
  console.log(`${aluno} está cadastrado!`)
- const indice = listaDeAlunosEMedias[0].indexOf(aluno);
- const mediaDoAluno = listaDeAlunosEMedias [1][indice];
+ const indice = alunos.indexOf(aluno);
+ const mediaDoAluno = medias[indice];
 console.log(mediaDoAluno);
  }else
  {
